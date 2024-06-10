@@ -1,0 +1,26 @@
+{
+  "name": "mylockerwindows",
+  "version": "1.0.0",
+  "description": "This is electron locker app",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^13.1.7"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.3.0"
+  },
+  "scripts": {
+    "start": "electron",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachin8606/Locker_Windows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sachin8606/Locker_Windows/issues"
+  },
+  "homepage": "https://github.com/sachin8606/Locker_Windows#readme"
+}

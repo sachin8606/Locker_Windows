@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'">
+    
+    <link rel="stylesheet" href="./style.css" />
+    <title>MyLocker</title>
+  </head>
+  <body>
+    <div id="askAboutLogin">
+      <div id="containLogin">
+        <h1>Enter Login Details</h1>
+        <input type="name" class="loginInput" id="askName" placeholder="Name">
+        <br/>
+        <input type="password" class="loginInput" id="askPass" placeholder="Password">
+        <button id="loginBtn">Go</button>
+      </div>
+      <span style="position: fixed;bottom: 0;">Icon 8</span>
+    </div>
+    <div id="mainContainData">
+    <div id="containData">
+  
+    <table id="table">
+    </table>
+  </div>
+  <div id="addnewRight">
+    <div id="addnewcontain">
+      <h3 id="addnewheading">Add new Credentials</h3>
+      <input type="text" class="newFor" id="name" placeholder="For">
+      <input type="text" class="newFor" id="password" placeholder="Password">
+    <button id="addrow">Add</button>
+  </div>
+</div>
+</div>
+    <script src="./l.js"></script>
+  </body>
+</html>

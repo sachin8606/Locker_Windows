@@ -1,0 +1,113 @@
+*{
+    background-color: lightslategrey;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+td{
+    border: 1px solid;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+}
+#askAboutLogin{
+    color: aliceblue;
+}
+#table{
+    width: 100%;
+}
+#loginBtn{
+    background: lightcoral;
+    border: 1px solid white;
+    margin: auto;
+    width: 200px;
+    height: 38px;
+    display: block;
+}
+#containLogin{
+    width: fit-content;
+    margin: auto;
+}
+#mainContainData{
+    display: none;
+}
+.loginInput{
+    width: -webkit-fill-available;
+    border: 1px solid white;
+    height: 34px;
+    padding-left: 5px;
+    margin-bottom: 24px;
+    color: black;
+    background-color: lightgreen;
+}
+#containData{
+    width: 70%;
+    float: left;
+    padding: 10px 0px;
+    height: 95vh;
+    overflow-y: auto;
+}
+#addnewRight{
+    width: 25%;
+    float: right;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#addrow{
+    margin-top: 21px;
+    height: 44px;
+    font-weight: bold;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+.newFor{
+    height: 27px;
+    font-size: x-large;
+    padding: 6px;
+    font-family:ui-serif;
+    border: 1px solid white;
+    margin: 10px;
+    color: black;
+    background-color: lightgreen;
+}
+#addnewcontain{
+    padding: 10px;
+    margin-top: 40%;
+    display: grid;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.tableHeadings{
+    color: white;
+    font-size: x-large;
+}
+.deleteBtn{
+    width: 50%;
+    background: darkred;
+    height: 75%;
+    color: white;
+    cursor: pointer;
+}
+#addnewheading{
+    text-align: center;
+    padding: 10px;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    left: 400px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+}
+.alert.show {
+    opacity: 1;
+}
